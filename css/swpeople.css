@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body{
+  text-align: center;
+  color: #225378;
+}
+h1 a:hover{
+  text-shadow: 5px 5px 5px 5px green;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container div{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+.box{
+  box-shadow: 5px 5px 7px 5px black
+}
+.lightSide:hover{
+box-shadow: 5px 5px 7px 5px rgb(1, 120, 255);
+}
+.darkSide:hover{
+  box-shadow: 5px 5px 7px 5px rgb(167, 0, 0);
+}
+.yellow:hover{
+  box-shadow: 5px 5px 7px 5px rgb(10, 196, 41) ;
+}
+
+
+h1 {
+
+  font-size: xx-large;
+}
+
+
+nav ul { 
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #225378;
+
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+}
+
+nav ul li a {
+  color: #F3FFE2;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #EB7F00;
+
+}
+
+.row {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

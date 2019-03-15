@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}  
+
+/* h2 {
+    text-align: center;
+    padding: 20px;
+} */
+p {
+    color: #EB7F00;
+    font-size: 16pt;
+}
+
+nav ul { 
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: #225378;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    color: #F3FFE2;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #EB7F00;
+}
+
+.intro {
+    min-height: 55vh;
+    padding-top: 45vh;
+    background-color: #F3FFE2;
+    text-align: center;
+}
+.work-header {
+    color: #F3FFE2;
+}
+.work {
+    background-color: #225378;
+    flex-wrap: nowrap;
+}
+.project-tile {
+    color: #F3FFE2;
+}
+.project.project-tile {
+    display: flex;
+}
+.project-pics {
+    /*display: block; */
+    /*flex-direction: row;
+    justify-content: center;
+    align-items: center;  */
+    height: 180px; 
+}
+
+.project {
+    text-decoration: none;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+figure {
+    max-width: 230px;
+}
+.figure-pic {
+    /* max-width: 200px; */
+    max-height: 200px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.project-tile {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 25vh;
+    background-color: #1695A3;
+}
+
+#contact a {
+    text-align: center;
+    margin: 10px;
+}
+
+.contact-details {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 36px 45px 35px;
+    list-style-type: none;
+    border: 2px solid #225378;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #F3FFE2;
+    color: #EB7F00;
+    text-decoration: none;
+}
+.contact-details:hover {
+    background: #EB7F00;
+    color: #F3FFE2;
+}
+@media only screen and (max-width: 500px) {
+    nav ul {
+      text-align: center;
+    }
+    nav ul li  {
+        margin: 20px;
+    }
+    .project {
+        margin: 40px 0;
+    }
+#contact {
+    min-height:1100px;
+
+.contact-details{
+    border: 2px solid;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+}
